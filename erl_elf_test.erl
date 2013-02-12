@@ -7,6 +7,8 @@
 
 -compile([export_all]).
 
+-define(FILENAME, "hello.elf").
+
 code() ->
     <<
     16#7F, 16#45, 16#4C, 16#46, 16#01, 16#01, 16#01, 16#00, 16#00, 16#00, 16#00, 16#00, 16#00, 16#00, 16#00, 16#10, 16#02, 16#00, 16#03, 16#00,
@@ -26,8 +28,8 @@ data() ->
     <<Str/bytes, (byte_size(Str)):8>>.
 
 test() ->
-    ok = file:write_file("hello.elf", [code(), data()]),
-    ok = file:change_mode("hello.elf", 8#755), % same as chmod +x hello.elf
+    ok = file:write_file(?FILENAME, [code(), data()]),
+    ok = file:change_mode(?FILENAME, 8#755), % same as chmod +x hello.elf
     run().
 
 run() ->
@@ -37,6 +39,6 @@ run() ->
         false ->
             io:format("Unsupported architecture: ~p~n", [Arch]);
         true ->
-            Output = os:cmd("./hello.elf"),
-            io:format("~p~n", [Output])
+            Output = os:cmd(filename:join(".",?FILENAME)),
+            io:format("Output: ~p~n", [Output])
     end.
