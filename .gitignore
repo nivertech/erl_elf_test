@@ -4,4 +4,6 @@ deps
 *.beam
 *.plt
 
+erl_crash.dump
+
 /hello.elf

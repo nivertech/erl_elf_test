@@ -28,5 +28,15 @@ data() ->
 test() ->
     ok = file:write_file("hello.elf", [code(), data()]),
     ok = file:change_mode("hello.elf", 8#755), % same as chmod +x hello.elf
-    Output = os:cmd("./hello.elf"),
-    io:format("~p~n", [Output]).
+    run().
+
+run() ->
+    X86Archs = ["i386","i486","i586","i686","i86pc","x86_64"],
+    Arch = lib:nonl(os:cmd("uname -m")),
+    case lists:member(Arch, X86Archs) of
+        false ->
+            io:format("Unsupported architecture: ~p~n", [Arch]);
+        true ->
+            Output = os:cmd("./hello.elf"),
+            io:format("~p~n", [Output])
+    end.
