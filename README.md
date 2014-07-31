@@ -13,3 +13,8 @@ Executable and Linkable Format (ELF):
 ELF101 a Linux executable walkthrough (code.google.com):
 - https://code.google.com/p/corkami/wiki/ELF101
 - https://news.ycombinator.com/item?id=6767136
+
+
+a mini ELF poster:
+- https://twitter.com/corkami/status/494386446204416000/photo/1
+- http://imgur.com/a/MtQZv#0
