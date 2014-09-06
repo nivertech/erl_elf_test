@@ -21,3 +21,7 @@ ELF101 a Linux executable walkthrough (code.google.com):
 a mini ELF poster:
 - https://twitter.com/corkami/status/494386446204416000/photo/1
 - http://imgur.com/a/MtQZv#0
+
+Tutorial on Creating Really Teensy ELF
+- http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+- https://news.ycombinator.com/item?id=8279461
