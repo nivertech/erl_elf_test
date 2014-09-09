@@ -27,3 +27,8 @@ a mini ELF poster:
 Tutorial on Creating Really Teensy ELF
 - http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 - https://news.ycombinator.com/item?id=8279461
+
+Boilerplate for building syscall-only ELFs in FreeBSD:
+- https://github.com/sebcat/nolibs-stub
+- https://news.ycombinator.com/item?id=8289414
+
