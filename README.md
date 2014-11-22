@@ -25,6 +25,8 @@ a mini ELF poster:
 - http://imgur.com/a/MtQZv#0
 
 Tutorial on Creating Really Teensy ELF
+- http://www.muppetlabs.com/~breadbox/software/tiny/home.html
+- https://news.ycombinator.com/item?id=8642734
 - http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 - https://news.ycombinator.com/item?id=8279461
 
