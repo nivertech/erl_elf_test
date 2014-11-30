@@ -34,3 +34,12 @@ Boilerplate for building syscall-only ELFs in FreeBSD:
 - https://github.com/sebcat/nolibs-stub
 - https://news.ycombinator.com/item?id=8289414
 
+Creating ELF relocatable object files in Linux
+- http://developer2developer.wordpress.com/2014/10/01/creating-elf-relocatable-object-files-in-linux/
+- https://news.ycombinator.com/item?id=8675294
+
+
+
+
+
+
