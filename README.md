@@ -1,6 +1,13 @@
 erl_elf_test
 ============
 
+Understanding the ELF
+- https://medium.com/@MrJamesFisher/understanding-the-elf-4bd60daac571
+- https://news.ycombinator.com/item?id=8966935
+
+ELF101
+- https://code.google.com/p/corkami/wiki/ELF101
+
 Build ELF executable from Erlang, based on:
 - http://www.negrebskoh.net/howto/howto_elf_exec.html
 
