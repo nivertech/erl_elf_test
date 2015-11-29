@@ -1,6 +1,10 @@
 erl_elf_test
 ============
 
+The dissection of a simple “hello world” ELF file
+- https://github.com/mewrev/dissection
+- https://news.ycombinator.com/item?id=10641229
+
 Understanding the ELF
 - https://medium.com/@MrJamesFisher/understanding-the-elf-4bd60daac571
 - https://news.ycombinator.com/item?id=8966935
