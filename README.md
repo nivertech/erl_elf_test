@@ -1,6 +1,11 @@
 erl_elf_test
 ============
 
+New ELF Linker from the LLVM Project (llvm.org):
+- http://blog.llvm.org/2015/11/new-elf-linker-from-llvm-project.html?m=1
+- https://news.ycombinator.com/item?id=10650891
+
+
 The dissection of a simple “hello world” ELF file
 - https://github.com/mewrev/dissection
 - https://news.ycombinator.com/item?id=10641229
